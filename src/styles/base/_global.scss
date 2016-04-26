@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    box-sizing: border-box;
+    font-family: $font-main;
+    font-weight: 400;
+    margin: auto;
+    font-size: 14px;
+}
+
+body {
+    font-family: $font-main;
+    font-weight: 400;
+    margin: auto;
+    font-size: 14px;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: $main-accent-color;
+    &.bottom-bar {
+        background-color: #FFFFFF;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 5px;
+    }
+}
+
+a, button, h3 {
+    color: #3A3A3A;
+}
+
+a {
+    text-decoration: none;
+}
+
+.label {
+    color: #3A3A3A;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+button {
+    min-width: 100px;
+    border: 1px solid #848484;
+    float: left;
+    height: 40px;
+    background-color: $section-accent-color;
+    width: 50%;
+    font-weight: 800;
+    outline: 0px;
+}
+
+h3 {
+    line-height: 32px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+select {
+    border: none;
+    font-family: $font-main;
+    float: right;
+    background-color: $section-accent-color;
+    font-weight: 800;
+    color: #848484;
+}

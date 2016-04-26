@@ -1,0 +1,36 @@
+.top-bar {
+    .icon-mglass {
+        @include mglass()
+    }
+    img {
+        &.logo {
+            padding: 10px 10px;
+            width: 75px;
+            display: block;
+            margin: auto;
+            transform: translatey(7px);
+        }
+    }
+}
+
+.sub-bar {
+    border: 1px solid #CACACA;
+    background-color: $section-accent-color;
+    .bar-body_container {
+        padding: 0px 10px;
+        height: 40px;
+    }
+    label {
+        &.language {
+            float: left;
+            transform: translateY(-50%);
+            top: 50%;
+            position: relative;
+        }
+    }
+    .drop-down {
+        transform: translateY(-50%);
+        top: 50%;
+        position: relative;
+    }
+}

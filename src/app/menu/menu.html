@@ -1,0 +1,13 @@
+<section class="menu-body_container" />
+<div class="menu__item" ng-repeat="button in vm.menu.buttons">
+    <a href="{{button.link}}">
+        <div class="menu__image">
+            <img src="http://placehold.it/100x100" alt="{{button.name}}">
+        </div>
+        <div class="menu__description">
+            <h3>{{button.caption_en}}</h3>
+            <p>{{button.description_en}} </p>
+        </div>
+    </a>
+</div>
+</section>

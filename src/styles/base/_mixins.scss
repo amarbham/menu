@@ -1,0 +1,33 @@
+@mixin clearfix() {
+    & {
+        *zoom: 1;
+    }
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin mglass() {
+    position: absolute;
+    display: inline-block;
+    border-radius: 30px;
+    height: 18px;
+    width: 18px;
+    border: 3px solid #FFF;
+    top: 14px;
+    left: 10px;
+    &:after {
+        content: "";
+        height: 4px;
+        width: 10px;
+        background: #FFF;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+        transform: rotate(45deg);
+    }
+}

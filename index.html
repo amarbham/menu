@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amar</title>
+    <link href="/src/styles/main.css" rel="stylesheet">
+</head>
+
+<body ng-cloak>
+    <nav class="top-bar">
+        <span class="icon-mglass"></span>
+        <img src="assets/UENI.png" alt="UENI" class="logo">
+    </nav>
+    <section class="sub-bar">
+        <form class="bar-body_container">
+            <label for="language" class="label language">Language</label>
+            <select class="drop-down"">
+                <option value="" disabled selected>Select Your Language</option>
+                <option value="english">English</option>
+                <option value="french">French</option>
+                <option value="german">German</option>
+                <option value="spanish">Spanish</option>
+            </select>
+        </form>
+    </section>
+    <div ng-view menu-directive></div>
+    <nav class="bottom-bar">
+        <button>Favourites</button>
+        <button>Sign In</button>
+    </nav>
+
+    <!-- build:js scripts/main.min.js -->
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="/src/app/main.js"></script>
+    <!-- endbuild -->
+
+
+</body>
+
+</html>

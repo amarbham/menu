@@ -1,0 +1,46 @@
+{
+    "buttons": [
+        {
+            "link": "#/book",
+            "image": "http://placehold.it/100x100",
+            "caption_en": "Book",
+            "name": "book",
+            "description_en": "Make an Appointment"
+        },
+        {
+            "link": "#/gymproducts",
+            "image": "http://placehold.it/100x100",
+            "caption_en": "Explore",
+            "name": "classes",
+            "description_en": "Discover our Services"
+        },
+        {
+            "link": "#/venues",
+            "image": "http://placehold.it/100x100",
+            "caption_en": "Salons",
+            "name": "clubs",
+            "description_en": "Find your Salon"
+        },
+        {
+            "name": "collection",
+            "image": "http://placehold.it/100x100",
+            "description_en": "Find Your Style",
+            "caption_en": "Collection",
+            "link": "#/special"
+        },
+        {
+            "name": "other",
+            "image": "http://placehold.it/100x100",
+            "description_en": "The History of the House",
+            "caption_en": "Our Salon",
+            "link": "#/2"
+        },
+        {
+            "name": "other2",
+            "image": "http://placehold.it/100x100",
+            "description_en": "Need something different?",
+            "caption_en": "Other Haircuts",
+            "link": "#/3"
+        }
+    ]
+}
